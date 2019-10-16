@@ -1,6 +1,7 @@
 var input = document.getElementById('input');
-function calculate(e){ input.value += e; }
 
-function clean(){ input.value = ''; }
+function calc(e){ input.value += e; }
 
-function result(){ input.value = eval(input.value); }
+function delet(){ input.value = ''; }
+
+function rslt(){ input.value = eval(input.value); }

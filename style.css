@@ -1,21 +1,24 @@
 body {
-    background-color: black;
+background-image: url("howtoovercom.jpg");
 }
 .calculator{
     margin: 50px auto;
-    width: 40%;
+    width: 30%;
 }
 .input {
+    border-radius: 5px;
+    margin-left: -12px;
     width: 347px;
     height: 42px;
-    background-color: black;
+    background-color: orange;
     font-size: 50px;
-    color: white;
+    color: black;
     border: none;
     text-align: right;
+    margin-top: 50px;
 }
 .input::placeholder {
-    color: #fff;
+    color: black;
 }
 
 .button {
@@ -29,7 +32,7 @@ body {
 }
 
 .button:hover {
-    background: #fff;
+    background: white;
 }
 
 .zero {
@@ -38,10 +41,10 @@ body {
 
 .orange {
 
-    background-color: rgb(236, 134, 60);
+    background-color: orangered;
 
 }
 
 .up3 {
-    background-color: rgb(189, 189, 189);
+    background-color:lightgray;
 }

@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+.calculator{
+    margin: 50px auto;
+    width: 40%;
+}
+.input {
+    width: 347px;
+    height: 42px;
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    border: none;
+    text-align: right;
+}
+.input::placeholder {
+    color: #fff;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: gray;
+    border: none;
+    margin: 2px;
+}
+
+.button:hover {
+    background: #fff;
+}
+
+.zero {
+    width: 155px;
+}
+
+.orange {
+
+    background-color: rgb(236, 134, 60);
+
+}
+
+.up3 {
+    background-color: rgb(189, 189, 189);
+}
